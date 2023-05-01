@@ -1,0 +1,117 @@
+.frame {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#frame1 > img {
+  z-index: 1;
+}
+
+.drag-and-drop {
+  cursor: move;
+  position: absolute;
+  z-index: 1000;
+}
+
+.drag {
+  z-index: 1001;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
+
+.drag-and-drop {
+  cursor: move;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1000;
+  color: #fff;
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#red-box {
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+#red-box > img {
+  width: 100px;
+}
+
+#blue-box {
+  top: 100px;
+  left: 0;
+}
+
+#blue-box > img {
+  width: 100px;
+}
+
+#yellow-box {
+  top: 200px;
+  left: 0;
+}
+
+#yellow-box > img {
+  width: 50px;
+}
+
+#wario {
+  transform-origin: top left;
+  transition: transform 0.3s;
+}
+
+#wario:hover {
+  cursor: zoom-in;
+}
+
+#wario.scale {
+  transform: scale(2, 2);
+}
+
+#wario.scale:hover {
+  cursor: zoom-out;
+}
+
+#sonic {
+  transform-origin: top left;
+  transition: transform 0.3s;
+}
+
+#sonic:hover {
+  cursor: zoom-in;
+}
+
+#sonic.scale {
+  transform: scale(2, 2);
+}
+
+#sonic.scale:hover {
+  cursor: zoom-out;
+}
+
+#terry {
+  transform-origin: top left;
+  transition: transform 0.3s;
+}
+
+#terry:hover {
+  cursor: zoom-in;
+}
+
+#terry.scale {
+  transform: scale(2, 2);
+}
+
+#terry.scale:hover {
+  cursor: zoom-out;
+}
