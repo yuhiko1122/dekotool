@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
-    <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Create Design</title>
+    <meta charset="utf-8" />
+    <title></title>
   </head>
   <body>
     <header>
-      <div class="drag-and-drop" id="red-box">
-        <img src="img/Mural Wario (Alt 8).png" id="wario" />
-      </div>
-      <div class="drag-and-drop" id="blue-box">
-        <img src="img/Mural Sonic (Alt 6).png" id="sonic" />
-      </div>
-      <div class="drag-and-drop" id="yellow-box">
-        <img src="img/Mural Terry (Alt 6).png" id="terry" />
-      </div>
+      <input type="file" id="example01" onclick="getId(this);" />
+      <input type="file" id="example02" onclick="getId(this);" />
+      <input type="file" id="example03" onclick="getId(this);" />
+
+      <!-- 👇ここにプレビュー画像を追加する -->
+      <div id="preview01"></div>
+      <div id="preview02"></div>
+      <div id="preview03"></div>
     </header>
     <main>
-      <div class="frame">
-        <img src="img/テスゼロロゴ背景.png" id="frame1" />
+      <div class="base">
+        <img src="img/image.png" />
       </div>
     </main>
     <footer></footer>
-    <script src="js/move.js"></script>
-    <script src="js/size.js"></script>
+
+    <script src="js/deko.js"></script>
   </body>
 </html>
