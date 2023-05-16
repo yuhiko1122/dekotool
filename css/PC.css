@@ -1,0 +1,57 @@
+@media screen and (min-width: 769px) {
+    /* PC版 */
+    body::-webkit-scrollbar {
+      display: none;
+    }
+  
+    .MO {
+      display: none;
+    }
+  
+    .base_pc{
+      position: absolute;
+      top: 0 ;
+      left: 0;
+    }
+  
+    .base_pc > img{
+      width: 500px;
+    }
+  
+    .dekobtn01_pc{
+      position: absolute;
+    top: 10px;
+    left: 20px;
+    }
+  
+    .dekobtn02_pc{
+      position: absolute;
+      top: 60px;
+      left: 20px;
+    }
+  
+    .dekobtn03_pc{
+      position: absolute;
+      top: 110px;
+      left: 20px;
+    }
+  
+    .dekobtn04_pc{
+      position: absolute;
+    top: 160px;
+    left: 20px;
+    }
+  
+    .dekobtn05_pc{
+      position: absolute;
+    top: 210px;
+    left: 20px;
+    }
+  
+    .resetbtn_pc{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  

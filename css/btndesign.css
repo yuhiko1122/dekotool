@@ -1,0 +1,333 @@
+input {
+    display: none;
+  }
+  
+  /*----------------------------------------------------------------*/
+  
+  .dekobtn01_mo {
+    width: 50px;
+    height: 88px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .dekobtn01_mo::before,
+  .dekobtn01_mo::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  
+  .dekobtn01_mo::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn01_mo::after {
+    transform: rotate(-60deg);
+  }
+  
+  /*----------------------------------------------------------------*/
+  
+  .dekobtn02_mo {
+    width: 28px;
+    height: 50px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .dekobtn02_mo::before,
+  .dekobtn02_mo::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  
+  .dekobtn02_mo::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn02_mo::after {
+    transform: rotate(-60deg);
+  }
+  
+  /*----------------------------------------------------------------*/
+  
+  .dekobtn03_mo {
+    width: 28px;
+    height: 50px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .dekobtn03_mo::before,
+  .dekobtn03_mo::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  
+  .dekobtn03_mo::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn03_mo::after {
+    transform: rotate(-60deg);
+  }
+  
+  /*----------------------------------------------------------------*/
+  .dekobtn04_mo {
+    width: 28px;
+    height: 50px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .dekobtn04_mo::before,
+  .dekobtn04_mo::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  
+  .dekobtn04_mo::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn04_mo::after {
+    transform: rotate(-60deg);
+  }
+  /*----------------------------------------------------------------*/
+  .dekobtn05_mo {
+    width: 28px;
+    height: 50px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .dekobtn05_mo::before,
+  .dekobtn05_mo::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+  }
+  
+  .dekobtn05_mo::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn05_mo::after {
+    transform: rotate(-60deg);
+  }
+  /*----------------------------------------------------------------*/
+  
+  .resetbtn_mo {
+    display: inline-block;
+    cursor: pointer; /* カーソルを指に */
+    margin: 1em 0; /* まわりの余白 */
+    padding: 0.7em 1em; /* 文字まわりの余白 */
+    line-height: 1.4; /* 行間 */
+    background: #ff3e3e; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-size: 0.45em; /* フォントサイズ */
+    border-radius: 2.5em; /* 角の丸み */
+    transition: 0.2s; /* ホバーをなめらかに */
+  }
+  
+  .resetbtn_mo:hover {
+    box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.2); /* 影を表示 */
+  }
+  
+  
+  
+  
+  /*----------------------------------------------------------------*/
+  /*----------------------------------------------------------------*/
+  /*----------------------------------------------------------------*/
+  
+  .dekobtn01_pc {
+    width: 25px;
+    height: 44px;
+    background: #aaa;
+    position: relative;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .dekobtn01_pc::before,
+  .dekobtn01_pc::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #aaa;
+  }
+  
+  .dekobtn01_pc::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn01_pc::after {
+    transform: rotate(-60deg);
+  }
+  
+  /*----------------------------------------------------------------*/
+  
+  .dekobtn02_pc {
+    width: 25px;
+    height: 44px;
+    background: #aaa;
+    position: relative;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+  }
+  
+  .dekobtn02_pc::before,
+  .dekobtn02_pc::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #aaa;
+  }
+  
+  .dekobtn02_pc::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn02_pc::after {
+    transform: rotate(-60deg);
+  }
+  
+  /*----------------------------------------------------------------*/
+  
+  .dekobtn03_pc {
+    width: 25px;
+    height: 44px;
+    background: #aaa;
+    position: relative;
+    position: absolute;
+    top: 110px;
+    left: 20px;
+  }
+  
+  .dekobtn03_pc::before,
+  .dekobtn03_pc::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #aaa;
+  }
+  
+  .dekobtn03_pc::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn03_pc::after {
+    transform: rotate(-60deg);
+  }
+  
+  /*----------------------------------------------------------------*/
+  .dekobtn04_pc {
+    width: 25px;
+    height: 44px;
+    background: #aaa;
+    position: relative;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+  }
+  
+  .dekobtn04_pc::before,
+  .dekobtn04_pc::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #aaa;
+  }
+  
+  .dekobtn04_pc::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn04_pc::after {
+    transform: rotate(-60deg);
+  }
+  /*----------------------------------------------------------------*/
+  .dekobtn05_pc {
+    width: 25px;
+    height: 44px;
+    background: #aaa;
+    position: relative;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+  }
+  
+  .dekobtn05_pc::before,
+  .dekobtn05_pc::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #aaa;
+  }
+  
+  .dekobtn05_pc::before {
+    transform: rotate(60deg);
+  }
+  
+  .dekobtn05_pc::after {
+    transform: rotate(-60deg);
+  }
+  /*----------------------------------------------------------------*/
+  
+  .resetbtn_pc {
+    display: inline-block;
+    cursor: pointer; /* カーソルを指に */
+    margin: 1em 0; /* まわりの余白 */
+    padding: 0.7em 1em; /* 文字まわりの余白 */
+    line-height: 1.4; /* 行間 */
+    background: #ff3e3e; /* 背景色 */
+    color: #fff; /* 文字色 */
+    font-size: 0.45em; /* フォントサイズ */
+    border-radius: 2.5em; /* 角の丸み */
+    transition: 0.2s; /* ホバーをなめらかに */
+  }
+  
+  .resetbtn_pc:hover {
+    box-shadow: 0 8px 10px -2px rgba(0, 0, 0, 0.2); /* 影を表示 */
+  }
