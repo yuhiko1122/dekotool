@@ -2,24 +2,45 @@
   margin: 0;
   padding: 0;
 }
-#preview01 img {
-  width: 200px;
-  margin: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
+
+input {
+  display: none;
 }
-#preview02 img {
-  width: 200px;
-  margin: 10px;
+
+
+
+.preview01_mo img {
+  width: 105px;
   position: absolute;
-  top: 0px;
-  left: 0;
+  top: 321px;
+  left: 117.5px;
+  z-index: 100;
 }
-#preview03 img {
-  width: 200px;
-  margin: 10px;
+.preview02_mo img {
+  width: 63px;
   position: absolute;
-  top: 200px;
-  left: 0;
+  top: 309.5px;
+  left: 65.5px;
+  z-index: 100;
+}
+.preview03_mo img {
+  width: 63px;
+  position: absolute;
+  top: 368.3px;
+  left: 65.5px;
+  z-index: 100;
+}
+.preview04_mo img {
+  width: 63px;
+  position: absolute;
+  top: 339px;
+  left: 14.5px;
+  z-index: 100;
+}
+.preview05_mo img {
+  width: 63px;
+  position: absolute;
+  top: 397.9px;
+  left: 14.5px;
+  z-index: 100;
 }

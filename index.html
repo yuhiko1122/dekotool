@@ -2,26 +2,113 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/btndesign.css" type="text/css" />
+    <link rel="stylesheet" href="css/MO.css" type="text/css" />
+    <link rel="stylesheet" href="css/PC.css" type="text/css" />
     <meta charset="utf-8" />
-    <title></title>
+    <title>deko</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   </head>
   <body>
     <header>
-      <input type="file" id="example01" onclick="getId(this);" />
-      <input type="file" id="example02" onclick="getId(this);" />
-      <input type="file" id="example03" onclick="getId(this);" />
-
-      <!-- 👇ここにプレビュー画像を追加する -->
-      <div id="preview01"></div>
-      <div id="preview02"></div>
-      <div id="preview03"></div>
+      <div class="MO"></div>
+      <div class="PC"></div>
     </header>
     <main>
-      <div class="base">
-        <img src="img/image.png" />
+      <!--ベースとなる名札の配置-->
+      <div class="MO">
+        <div class="base_mo">
+          <img src="img/namebase02.png" />
+        </div>
+
+        
+
+
+        <label class="dekobtn01_mo">
+          <h1></h1>
+          <input type="file" id="example01" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn02_mo">
+          <h1></h1>
+          <input type="file" id="example02" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn03_mo">
+          <h1></h1>
+          <input type="file" id="example03" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn04_mo">
+          <h1></h1>
+          <input type="file" id="example04" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn05_mo">
+          <h1></h1>
+          <input type="file" id="example05" onclick="getId(this);" />
+        </label>
+
+        <!-- 👇ここにプレビュー画像を追加する -->
+
+        <div class="preview01_mo" id="preview01"></div>
+        <div class="preview02_mo" id="preview02"></div>
+        <div class="preview03_mo" id="preview03"></div>
+        <div class="preview04_mo" id="preview04"></div>
+        <div class="preview05_mo" id="preview05"></div>
+      </div>
+      <div class="PC">
+        <div class="base_pc">
+          <img src="img/namebase02.png" />
+        </div>
+        <label class="dekobtn01_pc">
+          <h1></h1>
+          <input type="file" id="example01" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn02_pc">
+          <h1></h1>
+          <input type="file" id="example02" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn03_pc">
+          <h1></h1>
+          <input type="file" id="example03" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn04_pc">
+          <h1></h1>
+          <input type="file" id="example04" onclick="getId(this);" />
+        </label>
+        <label class="dekobtn05_pc">
+          <h1></h1>
+          <input type="file" id="example05" onclick="getId(this);" />
+        </label>
+
+        <!-- 👇ここにプレビュー画像を追加する -->
+
+        <div class="preview01_pc" id="preview01"></div>
+        <div class="preview02_pc" id="preview02"></div>
+        <div class="preview03_pc" id="preview03"></div>
+        <div class="preview04_pc" id="preview04"></div>
+        <div class="preview05_pc" id="preview05"></div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="MO">
+        <label class="resetbtn_mo">
+          <h1>リセット</h1>
+          <input
+            type="button"
+            value="このページを再読込します"
+            onclick="window.location.reload();"
+          />
+        </label>
+      </div>
+      <div class="PC">
+        <label class="resetbtn_pc">
+          <h1>リセット</h1>
+          <input
+            type="button"
+            value="このページを再読込します"
+            onclick="window.location.reload();"
+          />
+        </label>
+      </div>
+    </footer>
 
     <script src="js/deko.js"></script>
   </body>
