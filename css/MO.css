@@ -1,53 +1,55 @@
 @media screen and (max-width: 768px) {
-    .PC {
-      display: none;
-    }
-  
-    .base_mo {
-      text-align: center;
-    }
-  
-    .base_mo > img {
-      width: 350px;
-      position: absolute;
-      top: 0 ;
-      left: 0;
-    }
-  
-    .dekobtn01_mo{
-      position: absolute;
+  .PC {
+    display: none;
+  }
+
+  .base_mo > img {
+    width: 270px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .back_mo > img {
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .dekobtn01_mo {
+    position: absolute;
     top: 322px;
     left: 145px;
-    }
-  
-    .dekobtn02_mo{
-      position: absolute;
-      top: 312px;
-      left: 83px;
-    }
-  
-    .dekobtn03_mo{
-      position: absolute;
-      top: 370px;
-      left: 83px;
-    }
-  
-    .dekobtn04_mo{
-      position: absolute;
+  }
+
+  .dekobtn02_mo {
+    position: absolute;
+    top: 312px;
+    left: 83px;
+  }
+
+  .dekobtn03_mo {
+    position: absolute;
+    top: 370px;
+    left: 83px;
+  }
+
+  .dekobtn04_mo {
+    position: absolute;
     top: 341px;
     left: 32px;
-    }
-  
-    .dekobtn05_mo{
-      position: absolute;
+  }
+
+  .dekobtn05_mo {
+    position: absolute;
     top: 400px;
     left: 32px;
-    }
-  
-    .resetbtn_mo{
-      position: absolute;
-      top: 500px;
-      left: 0;
-    }
   }
-  
+
+  .resetbtn_mo {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+  }
+}

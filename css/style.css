@@ -7,8 +7,6 @@ input {
   display: none;
 }
 
-
-
 .preview01_mo img {
   width: 105px;
   position: absolute;
@@ -43,4 +41,18 @@ input {
   top: 397.9px;
   left: 14.5px;
   z-index: 100;
+}
+
+.back_h {
+}
+
+.back_m {
+  background-color: #fff;
+  height: 497px;
+}
+
+.back_f {
+  z-index: 100;
+  background-color: #fff;
+  height: 150px;
 }
