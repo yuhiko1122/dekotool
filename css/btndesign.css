@@ -191,22 +191,22 @@ a.tbtn-border {
 a.rbtn,
 button.rbtn {
   position: absolute;
-  top: 550px;
-  left: 10px;
+  top: 520px;
+  left: 30px;
 }
 .dbtn,
 a.dbtn,
 button.dbtn {
   position: absolute;
-  top: 550px;
-  left: 120px;
+  top: 520px;
+  left: 140px;
 }
 .tbtn,
 a.tbtn,
 button.tbtn {
   position: absolute;
-  top: 550px;
-  left: 223px;
+  top: 520px;
+  left: 243px;
 }
 
 a.rbtn-border:hover {
