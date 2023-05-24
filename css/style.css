@@ -47,12 +47,12 @@ input {
 }
 
 .back_m {
-  background-color: #fff;
-  height: 497px;
+  background-color: #ffff00;
+  height: 800px;
 }
 
 .back_f {
   z-index: 100;
-  background-color: #fff;
+  background-color: #ffff00;
   height: 150px;
 }
