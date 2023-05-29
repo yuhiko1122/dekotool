@@ -3,53 +3,59 @@
     display: none;
   }
 
-  .base_mo > img {
-    width: 315px;
-    position: absolute;
-    top: 41px;
-    left: 41px;
-    z-index: 100;
+  .base_mo {
+    text-align: center;
   }
 
-  .back_mo > img {
-    width: 380px;
-    position: absolute;
-    top: -2px;
-    left: -2px;
+  .base_mo > img {
+    position: relative;
+    top: 20px;
+    width: 350px;
+    height: auto;
   }
 
   .dekobtn01_mo {
     z-index: 110;
     position: absolute;
-    top: 322px;
-    left: 145px;
+    top: 309px;
+    left: 0;
+    right: 7px;
+    margin: auto;
   }
 
   .dekobtn02_mo {
-    z-index: 110;
+    z-index: 111;
     position: absolute;
-    top: 312px;
-    left: 83px;
+    top: 301px;
+    left: 0;
+    right: 112px;
+    margin: auto;
   }
 
   .dekobtn03_mo {
     z-index: 110;
     position: absolute;
-    top: 370px;
-    left: 83px;
+    top: 344px;
+    left: 0;
+    right: 112px;
+    margin: auto;
   }
 
   .dekobtn04_mo {
     z-index: 110;
     position: absolute;
-    top: 341px;
-    left: 32px;
+    top: 322.5px;
+    left: 0;
+    right: 186px;
+    margin: auto;
   }
 
   .dekobtn05_mo {
     z-index: 110;
     position: absolute;
-    top: 400px;
-    left: 32px;
+    top: 365.5px;
+    left: 0;
+    right: 186px;
+    margin: auto;
   }
 }

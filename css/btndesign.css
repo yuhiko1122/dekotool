@@ -19,6 +19,8 @@ a.dbtn button.dbtn,
 .tbtn,
 a.tbtn,
 button.tbtn {
+  transform: rotate(-10deg);
+
   font-size: 1.6rem;
   font-weight: 700;
 
@@ -37,24 +39,24 @@ button.tbtn {
   vertical-align: middle;
   text-decoration: none;
   letter-spacing: 0.05em;
-  color: #212529;
+  color: #fff;
   border-radius: 0.25rem;
 }
 
 a.rbtn-border,
 a.dbtn-border,
 a.tbtn-border {
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 0;
-  background: #fff;
+  background: #000;
 }
 
 /*----------------------------------------------------------------*/
 
 .dekobtn01_mo {
-  width: 50px;
-  height: 88px;
-  background: #000000;
+  width: 36px;
+  height: 64px;
+  background: #ffffff;
   position: relative;
 }
 
@@ -66,7 +68,7 @@ a.tbtn-border {
   position: absolute;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #fff;
 }
 
 .dekobtn01_mo::before {
@@ -80,9 +82,9 @@ a.tbtn-border {
 /*----------------------------------------------------------------*/
 
 .dekobtn02_mo {
-  width: 28px;
-  height: 50px;
-  background: #000000;
+  width: 21px;
+  height: 37px;
+  background: #fff;
   position: relative;
 }
 
@@ -94,7 +96,7 @@ a.tbtn-border {
   position: absolute;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #fff;
 }
 
 .dekobtn02_mo::before {
@@ -108,9 +110,9 @@ a.tbtn-border {
 /*----------------------------------------------------------------*/
 
 .dekobtn03_mo {
-  width: 28px;
-  height: 50px;
-  background: #000000;
+  width: 21px;
+  height: 37px;
+  background: #fff;
   position: relative;
 }
 
@@ -122,7 +124,7 @@ a.tbtn-border {
   position: absolute;
   top: 0;
   left: 0;
-  background: #010101;
+  background: #fff;
 }
 
 .dekobtn03_mo::before {
@@ -135,9 +137,9 @@ a.tbtn-border {
 
 /*----------------------------------------------------------------*/
 .dekobtn04_mo {
-  width: 28px;
-  height: 50px;
-  background: #000000;
+  width: 21px;
+  height: 37px;
+  background: #fff;
   position: relative;
 }
 
@@ -149,7 +151,7 @@ a.tbtn-border {
   position: absolute;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #fff;
 }
 
 .dekobtn04_mo::before {
@@ -161,9 +163,9 @@ a.tbtn-border {
 }
 /*----------------------------------------------------------------*/
 .dekobtn05_mo {
-  width: 28px;
-  height: 50px;
-  background: #000000;
+  width: 21px;
+  height: 37px;
+  background: #fff;
   position: relative;
 }
 
@@ -175,7 +177,7 @@ a.tbtn-border {
   position: absolute;
   top: 0;
   left: 0;
-  background: #000000;
+  background: #fff;
 }
 
 .dekobtn05_mo::before {
@@ -187,26 +189,27 @@ a.tbtn-border {
 }
 /*----------------------------------------------------------------*/
 
-.rbtn,
-a.rbtn,
-button.rbtn {
-  position: absolute;
-  top: 520px;
-  left: 30px;
-}
 .dbtn,
 a.dbtn,
 button.dbtn {
   position: absolute;
-  top: 520px;
-  left: 140px;
+  top: 491px;
+  left: 50px;
+}
+.rbtn,
+a.rbtn,
+button.rbtn {
+  position: absolute;
+
+  top: 532px;
+  left: 40px;
 }
 .tbtn,
 a.tbtn,
 button.tbtn {
   position: absolute;
-  top: 520px;
-  left: 243px;
+  top: 573px;
+  left: 30px;
 }
 
 a.rbtn-border:hover {
