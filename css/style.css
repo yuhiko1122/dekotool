@@ -8,39 +8,49 @@ input {
 }
 
 .preview01_mo img {
-  width: 105px;
+  width: 77px;
   position: absolute;
-  top: 321px;
-  left: 117.5px;
-  z-index: 100;
+  top: 308px;
+  left: 0;
+  right: 7px;
+  margin: auto;
+  z-index: 120;
 }
 .preview02_mo img {
-  width: 63px;
+  width: 46px;
   position: absolute;
-  top: 309.5px;
-  left: 65.5px;
-  z-index: 100;
+  top: 300px;
+  left: 0;
+  right: 112px;
+  margin: auto;
+  z-index: 120;
 }
 .preview03_mo img {
-  width: 63px;
+  width: 46px;
   position: absolute;
-  top: 368.3px;
-  left: 65.5px;
-  z-index: 100;
+  top: 342.5px;
+  left: 0;
+  right: 112px;
+  margin: auto;
+  z-index: 120;
 }
 .preview04_mo img {
-  width: 63px;
+  width: 46px;
   position: absolute;
-  top: 339px;
-  left: 14.5px;
-  z-index: 100;
+  top: 321px;
+  left: 0;
+  right: 187px;
+  margin: auto;
+  z-index: 120;
 }
 .preview05_mo img {
-  width: 63px;
+  width: 46px;
   position: absolute;
-  top: 397.9px;
-  left: 14.5px;
-  z-index: 100;
+  top: 364px;
+  left: 0;
+  right: 187px;
+  margin: auto;
+  z-index: 120;
 }
 
 .back_h {
@@ -48,11 +58,9 @@ input {
 
 .back_m {
   background-color: #ffff00;
-  height: 800px;
 }
 
 .back_f {
   z-index: 100;
   background-color: #ffff00;
-  height: 150px;
 }
