@@ -1,9 +1,14 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
+}
+
+.deko_title {
+  color: #fff100;
 }
 
 /*==================================================
@@ -40,8 +45,8 @@
   top: 42%;
   cursor: pointer; /*マウスカーソルを指マークに*/
   outline: none; /*クリックをしたら出てくる枠線を消す*/
-  border-top: 2px solid #666; /*矢印の色*/
-  border-right: 2px solid #666; /*矢印の色*/
+  border-top: 2px solid #fff100; /*矢印の色*/
+  border-right: 2px solid #fff100; /*矢印の色*/
   height: 15px;
   width: 15px;
 }
@@ -81,10 +86,21 @@
 }
 
 .slick-dots .slick-active button {
-  background: #000000; /*ドットボタンの現在地表示の色*/
+  background: #fff100; /*ドットボタンの現在地表示の色*/
 }
 
 /*========= レイアウトのためのCSS ===============*/
+
+.blankhead {
+  height: 130px;
+}
+
+.dekohead > img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 body {
   background: #eee;
@@ -103,7 +119,7 @@ ul {
 }
 
 a {
-  color: #333;
+  color: #ffffff;
 }
 
 a:hover,
@@ -124,12 +140,12 @@ a:active {
 }
 .DLimg > a > span {
   font-family: "Alata", sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 header,
 main {
-  background-color: #888888;
+  background-color: #000000;
 }
 
 main {
@@ -141,13 +157,13 @@ a.rbtn,
 button.rbtn {
   transform: rotate(-10deg);
 
-  font-size: 1.6rem;
+  font-size: 6.4rem;
   font-weight: 700;
 
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 0.5rem 2rem;
+  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -158,21 +174,22 @@ button.rbtn {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  letter-spacing: 0.05em;
-  color: #000000;
-  border-radius: 0.25rem;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  border-radius: 0.5rem;
 }
 
 a.hbtn-border {
-  border: 2px solid #000000;
+  border: 2px solid #fff100;
   border-radius: 0;
-  background: #ffffff;
+  background: #000000;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 a.hbtn,
 a.hbtn-border {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 .btn_home {
