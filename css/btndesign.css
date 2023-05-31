@@ -28,7 +28,7 @@ button.tbtn {
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 0.5rem 2rem;
+  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -39,9 +39,9 @@ button.tbtn {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   color: #fff;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
 }
 
 a.rbtn-border,
@@ -194,7 +194,7 @@ a.tbtn-border {
 a.dbtn,
 button.dbtn {
   position: absolute;
-  top: 491px;
+  top: 460px;
   left: 50px;
 }
 .rbtn,
@@ -202,7 +202,7 @@ a.rbtn,
 button.rbtn {
   position: absolute;
 
-  top: 532px;
+  top: 517px;
   left: 40px;
 }
 .tbtn,
