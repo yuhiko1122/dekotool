@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 * {
   margin: 0;
@@ -121,12 +122,14 @@ a:active {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.DLimg > span {
+.DLimg > a > span {
+  font-family: "Alata", sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 header,
 main {
-  background-color: #fff100;
+  background-color: #888888;
 }
 
 main {
@@ -163,7 +166,7 @@ button.rbtn {
 a.hbtn-border {
   border: 2px solid #000000;
   border-radius: 0;
-  background: #fff100;
+  background: #ffffff;
 }
 
 a.hbtn,
@@ -173,5 +176,6 @@ a.hbtn-border {
 }
 
 .btn_home {
+  margin-top: 20px;
   text-align: center;
 }

@@ -8,56 +8,53 @@ input {
 }
 
 .preview01_mo img {
-  width: 77px;
+  width: 75px;
   position: absolute;
-  top: 308px;
+  top: 298.8px;
   left: 0;
-  right: 7px;
+  right: 6.5px;
   margin: auto;
   z-index: 120;
 }
 .preview02_mo img {
-  width: 46px;
+  width: 45px;
   position: absolute;
-  top: 300px;
+  top: 291px;
   left: 0;
-  right: 112px;
+  right: 107.5px;
   margin: auto;
   z-index: 120;
 }
 .preview03_mo img {
-  width: 46px;
+  width: 45px;
   position: absolute;
-  top: 342.5px;
+  top: 331.5px;
   left: 0;
-  right: 112px;
+  right: 107.5px;
   margin: auto;
   z-index: 120;
 }
 .preview04_mo img {
-  width: 46px;
+  width: 45px;
   position: absolute;
-  top: 321px;
+  top: 311.5px;
   left: 0;
-  right: 187px;
+  right: 177.5px;
   margin: auto;
   z-index: 120;
 }
 .preview05_mo img {
-  width: 46px;
+  width: 45px;
   position: absolute;
-  top: 364px;
+  top: 352px;
   left: 0;
-  right: 187px;
+  right: 177.5px;
   margin: auto;
   z-index: 120;
 }
 
-.back_h {
-}
-
 .back_m {
-  background-color: #ffff00;
+  background-color: #000000;
 }
 
 .back_f {
