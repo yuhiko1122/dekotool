@@ -8,16 +8,16 @@ input {
 }
 
 .preview01_mo img {
-  width: 75px;
+  width: 76px;
   position: absolute;
-  top: 298.8px;
+  top: 299px;
   left: 0;
   right: 6.5px;
   margin: auto;
   z-index: 120;
 }
 .preview02_mo img {
-  width: 45px;
+  width: 46px;
   position: absolute;
   top: 291px;
   left: 0;
@@ -26,7 +26,7 @@ input {
   z-index: 120;
 }
 .preview03_mo img {
-  width: 45px;
+  width: 46px;
   position: absolute;
   top: 331.5px;
   left: 0;
@@ -35,7 +35,7 @@ input {
   z-index: 120;
 }
 .preview04_mo img {
-  width: 45px;
+  width: 46px;
   position: absolute;
   top: 311.5px;
   left: 0;
@@ -44,7 +44,7 @@ input {
   z-index: 120;
 }
 .preview05_mo img {
-  width: 45px;
+  width: 46px;
   position: absolute;
   top: 352px;
   left: 0;
